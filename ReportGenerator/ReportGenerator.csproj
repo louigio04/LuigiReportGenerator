@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<PackageId>LuigiMen_ReportGenerator</PackageId>
+		<Title>Report Generator</Title>
+		<Authors>Luigi Men</Authors>
+		<Description>A library to generate reports from data.</Description>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Version>1.1.1</Version>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Include="bin\Release\net8.0\LICENSE.lic" />
+	  <None Include="bin\Release\net8.0\README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+
+</Project>
